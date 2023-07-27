@@ -1,0 +1,19 @@
+[ {
+  "playerName" : "The dummy",
+  "solved" : false,
+  "moves" : 0,
+  "duration" : null,
+  "created" : null
+}, {
+  "playerName" : "The nameless",
+  "solved" : false,
+  "moves" : 0,
+  "duration" : null,
+  "created" : null
+}, {
+  "playerName" : "szia",
+  "solved" : false,
+  "moves" : 2,
+  "duration" : null,
+  "created" : null
+} ]

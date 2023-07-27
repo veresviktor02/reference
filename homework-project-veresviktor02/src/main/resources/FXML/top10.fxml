@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cannon.scene.LeaderboardController">
+   <children>
+      <VBox alignment="TOP_CENTER" prefHeight="600.0" prefWidth="600.0">
+         <children>
+            <Text fx:id="successfulText" strokeType="OUTSIDE" strokeWidth="0.0" text="Sikeres/Sikertelen" textAlignment="CENTER" wrappingWidth="600.0">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="22.0" />
+               </font>
+            </Text>
+            <TableView fx:id="topTable" maxHeight="600.0" maxWidth="600.0" prefHeight="580.0" prefWidth="600.0">
+              <columns>
+                <TableColumn fx:id="playerName" editable="false" maxWidth="120.0" prefWidth="120.0" resizable="false" text="játékos neve" />
+                <TableColumn fx:id="successful" editable="false" maxWidth="120.0" prefWidth="120.0" resizable="false" text="Sikeres-e" />
+                <TableColumn fx:id="steps" editable="false" maxWidth="120.0" prefWidth="120.0" resizable="false" text="Lépések száma" />
+                <TableColumn fx:id="duration" editable="false" maxWidth="120.0" prefWidth="120.0" resizable="false" text="Játék ideje" />
+                <TableColumn fx:id="created" editable="false" maxWidth="120.0" prefWidth="120.0" resizable="false" text="játék kezdése" />
+              </columns>
+            </TableView>
+         </children>
+      </VBox>
+   </children>
+</Pane>
